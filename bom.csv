@@ -1,0 +1,20 @@
+Item,Specification,Qty,Unit Price (USD),Line Total (USD),Link,Justification
+STM32WB55CGU6 dev board (WeAct),USB-C Black Pill style,1,18.00,18.00,https://amzn.to/4e2eqvP,"Main MCU - runs official Flipper firmware, onboard BLE for mobile app. Carrier board for prototyping; final unit mounts on my custom PCB."
+CC1101 sub-GHz module + antenna,433 MHz SMA (HK/Asia band),1,9.00,9.00,https://amzn.to/4pt98Ne,Sub-GHz radio (capture/replay remotes). RF front-end module per reference design; bare-chip RF design out of scope.
+ST7565 128x64 COG LCD,"13-pin SPI, white backlight",1,12.00,12.00,https://amzn.to/4e13OgL,Main display - exact variant the firmware supports.
+X-NUCLEO-NFC06A1 (ST25R3916),ST NFC reader board,1,17.00,17.00,https://www.digikey.com/en/products?keywords=X-NUCLEO-NFC06A1,NFC read/write/emulate. ST25R3916 = the real Flipper's NFC chip; firmware drives it directly.
+MicroSD card module,SPI 3.3V,1,7.00,7.00,https://amzn.to/4ppFxUG,"Firmware storage (apps, databases, captures). Smallest sold unit."
+SN74HC165N shift register,DIP-16 (10-pack = smallest sold unit),1,7.00,7.00,https://amzn.to/493BFC6,"Reads 6 nav buttons over 3 pins, as the firmware build requires."
+5-way tactile switch + push buttons,Nav stick + 2 buttons,1,8.00,8.00,https://amzn.to/4s7XWHw,Up/Down/Left/Right/OK/Back user controls.
+Resistor assortment kit,1/4W incl. 47R/1k/10k,1,8.00,8.00,https://www.amazon.com/s?k=resistor+assortment+kit+1%2F4w,10k button pull-downs; 1k+47R for IR transmitter driver.
+IR receiver (VS1838B) + IR LED,38kHz RX + 940nm TX,1,7.00,7.00,https://amzn.to/44CEI2P,Infrared learn/replay. TX LED: https://amzn.to/4iLboww
+TP4056 USB-C charging module,With protection (5-pack = smallest sold unit),1,8.00,8.00,https://amzn.to/4pSzZ4X,Safe 18650 charging over USB-C.
+MT3608 boost converter,Mini DC-DC step-up,1,7.00,7.00,https://amzn.to/3MCEFOi,Battery 3.7V to stable 5V rail - required; board regulator sags on low battery without it.
+18650 battery,Protected cell,1,10.00,10.00,https://amzn.to/44fuIw4,Portable power for demoing.
+Pin headers + AWG30 wire kit,Male/female headers + colored wire,1,12.00,12.00,https://amzn.to/48M2LPd,All interconnects. Wire: https://amzn.to/48tV541
+Slide switch,Mini SPDT,1,6.00,6.00,https://amzn.to/4rQhlwE,Main power switch.
+MicroSD card 16GB,Class 10,1,8.00,8.00,https://www.amazon.com/s?k=microsd+16gb,Boot media for firmware assets.
+Perfboard,Prototype board,1,7.00,7.00,https://www.amazon.com/s?k=perfboard+assortment,Intermediate assembly between breadboard and custom PCB.
+Custom PCB,"2-layer HASL (cheapest finish), 5 pcs min order",1,15.00,15.00,https://jlcpcb.com,MY OWN KiCad design integrating all modules - core project deliverable. HASL per cheapest-option rule.
+PLA filament for case,1.75mm,1,8.00,8.00,https://www.amazon.com/s?k=PLA+filament+1.75mm,My own 3D-printed enclosure design. (Delete if school/library printer available.)
+Soldering iron,Basic ~$20 iron,1,20.00,20.00,https://www.amazon.com/s?k=soldering+iron+kit+basic,ONLY IF NEEDED - delete if already owned. $20 iron per bare-minimum-tools rule.
