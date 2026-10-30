@@ -17,6 +17,17 @@ Known clone limitations (firmware/secure-enclave, not fixable in hardware):
 U2F and KeeLoq need factory keys; 125 kHz RFID is not supported by the
 FCFZ firmware build; no speaker/vibration.
 
+## Screenshots
+
+### PCB (routed, 2-layer)
+![PCB](images/pcb-screenshot.png)
+
+### Full 3D assembly (3D-printed case)
+![Case](images/case-3d-render.png)
+
+### Wiring diagram
+![Wiring](images/wiring-schematic.png)
+
 ## Repo contents
 | Path | What |
 |---|---|
