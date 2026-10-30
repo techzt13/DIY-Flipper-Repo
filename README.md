@@ -58,4 +58,4 @@ IR RX=PA0, TX=PB9 · iButton=PB8 · UART: TX=PB6, RX=PB7
 
 ## Credits
 Firmware port & reference pinout: FCFZ / Nucleus Dark / Flipper-Diy community,
-Momentum firmware, flipperdevices. Built with help from Kimi.
+Momentum firmware, flipperdevices.
